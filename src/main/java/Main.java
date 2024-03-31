@@ -4,7 +4,10 @@ public class Main {
         CreateAnimalServiceImpl createAnimalServiceImpl = new CreateAnimalServiceImpl();
 
         createAnimalService.createAnimals();
-        createAnimalServiceImpl.createAnimals(5);
+        CreateAnimalServiceImpl.createAnimals(5);
         createAnimalServiceImpl.createAnimals();
+
+        Example example = new Example();
+        System.out.println(example.hashCode());
     }
 }
